@@ -26,6 +26,8 @@ static void panic_and_abort(const char *title, const char *text)
     exit(1);
 }
 
+///test
+
 int main(int argc, char **argv)
 {
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) == -1) {
