@@ -4,7 +4,7 @@
 
 // [important] 
 // origin auth   : Ryan C. Gordon (https://www.youtube.com/@RyanGordon)  
-// origin yutubu : Writing a Simple Media Player with SDL, part 6: Balance controls (https://www.youtube.com/watch?v=Axi34EaC_MY)
+// origin yutubu : Writing a Simple Media Player with SDL, part 7: How Computer Audio Works (https://www.youtube.com/watch?v=Axi34EaC_MY)
 // origin source : https://github.com/icculus/sdlamp/blob/7527bbffbf20224be204b32cf4632e3368016209/sdlamp.c  
 // 
 // HOW TO COMFILE (GCC) : gcc sdlamp.c -o sdlamp -I /usr/include/SDL2/ -lSDL2
