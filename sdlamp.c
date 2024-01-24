@@ -6,6 +6,10 @@
 //class 폴더에 이미지를 넣어야하는데.. 오늘은 다른 일을 좀 해야해서 여기까지 하고
 //나중에 반드시 해결해보자.. 
 
+//일단, hifi 에 Main.bmp Cbuttons.bmp Balance.bmp Volume.bmp 를 classic 폴더에 넣었다..
+//머.. gimp 로 배경이미지 및 버튼 이미지를 사용하는 것이 나의 주 관심사가 아니므로 
+//이정도만 하고 넘어간다..
+
 
 // [important] 
 // origin auth   : Ryan C. Gordon (https://www.youtube.com/@RyanGordon)  
@@ -13,10 +17,9 @@
 // origin source : https://github.com/icculus/sdlamp/blob/1355307a8082d869a505251eb63c256e408abd5a/sdlamp.c
 // 
 // HOW TO COMFILE (GCC) : gcc sdlamp.c -o sdlamp -I /usr/include/SDL2/ -lSDL2
-// HOW TO COMFILE (FTE) : fte ./sdlamp 실행 => LANG=C gcc .... ( 위에 yutubu 중간에 fte 의 tools 메뉴의 comfile.. 하는 법이 살짝 나옴 ) 
+// HOW TO COMFILE (FTE) : fte ./sdlamp 실행 => LANG=C gcc -o sdlamp -Wall -O0 -ggdb3 sdlamp.c `sdl2-config --cflags --libs` ( 위에 yutubu 중간에 fte 의 tools 메뉴의 comfile.. 하는 법이 살짝 나옴 ) 
 
-// 컴파일 [FTE->TOOLS->Compile] : 
-//  LANG=C gcc -o sdlamp -Wall -O0 -ggdb3 sdlamp.c `sdl2-config --cflags --libs`
+
 
 // 이것이 없어서 찾아서 넣었음.. => https://discourse.libsdl.org/t/sdl-sdl-stdinc-h-add-an-sdl-clamp-function/32531
 #define SDL_clamp(x, a, b) ((x) < (a)) ? (a) : (((x) > (b)) ? (b) : (x))
