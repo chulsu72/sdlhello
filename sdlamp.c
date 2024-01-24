@@ -2,8 +2,6 @@
 #include "SDL.h"
 
 
-//stash test - ok - try commit
-
 // 이번 강의는 WinAmp Skin 표준 파일(wsz)을 드래그앤드랍으로 실시간 적용할 수 있도록 하는 기능이다.
 // https://archive.org/details/winampskins 에서 wsz 파일을 받고 drag & drop 해본다..
 // 근데.. 안된다.. 왜냐하면 조기서 받은 파일은 여기서 쓰려는 파일명에 뭐가 더 붙어 있어서 안되는 것 같음.
