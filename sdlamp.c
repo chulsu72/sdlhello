@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "SDL.h"
 
+//음.. 12강에는 gimp 로 배경 이미지등을 직접 편집해야 함..
+//그래서, 소스를 고대로 pull해서 컴파일하고 실행하면 배경이 없음.. 
+//class 폴더에 이미지를 넣어야하는데.. 오늘은 다른 일을 좀 해야해서 여기까지 하고
+//나중에 반드시 해결해보자.. 
+
 
 // [important] 
 // origin auth   : Ryan C. Gordon (https://www.youtube.com/@RyanGordon)  
@@ -12,7 +17,6 @@
 
 // 컴파일 [FTE->TOOLS->Compile] : 
 //  LANG=C gcc -o sdlamp -Wall -O0 -ggdb3 sdlamp.c `sdl2-config --cflags --libs`
-
 
 // 이것이 없어서 찾아서 넣었음.. => https://discourse.libsdl.org/t/sdl-sdl-stdinc-h-add-an-sdl-clamp-function/32531
 #define SDL_clamp(x, a, b) ((x) < (a)) ? (a) : (((x) > (b)) ? (b) : (x))
